@@ -301,6 +301,7 @@ section.play_section {
     width: 634.833px;
     height: 650px;
 }
+
 .play_section_Rectangle_img {
     width: 318.5px;
     height: 365.083px;
@@ -310,3 +311,61 @@ section.play_section {
 }
 
 /* play instantly section end */
+
+/* play games section stsrt */
+section.games_area_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.games_area_right_img {
+    width: 710px;
+    height: 650px;
+}
+
+.games_area_left_img {
+    width: 318px;
+    height: 365px;
+}
+
+.games_area_right span {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.games_area_right h3 {
+    width: 426px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.games_area_right p {
+    width: 483px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* play games section end */
+
+/*  footer section start */
+section.footer_anchor {
+    width: 1920px;
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.footer_anchor_img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+/*  footer section end */
+
