@@ -1,0 +1,65 @@
+/* shared style */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main_body {
+    max-width: 1920px;
+    height: 130px;
+}
+/* header srction start */
+.nav_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_sections {
+    display: flex;
+    align-items: center;
+}
+
+.nav_sections,
+h2 {
+    margin-left: 15px;
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.span {
+    color: #ff42a5;
+}
+
+.header_about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_about_us {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.Follow_Us{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.Follow_Us_y{
+    width: 33.916px;
+    height: 24px;
+}
+.Follow_Us_t{
+    width: 24px;
+    height: 24px;
+}
+   /* header srction end */
